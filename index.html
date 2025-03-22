@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahardan</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner_header">
+            <div class="logo">
+                <img src="./logo.png">
+            </div>
+            <div class="menu_search">
+                <ul class="menu">
+                    <li><a href="">Beranda</a></li>
+                    <li><a href="">Acara TV</a></li>
+                    <li><a href="">Film</a></li>
+                </ul>
+            </div>
+            <ul class="right_menu">
+                <li class="right_menu_list"><i class="fa fa-search"></i></li>
+                <li class="right_menu_list"><span>R</span></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="home">
+        <div class="inner_home">
+            <div class="slider slider-1 show ">
+                <div class="slider_content">
+                    <h2>The Dark Knight</h2>
+                    <p>Batman, Letnan Gordon dan Jaksa Wilayah Harvey Dent melawan Joker, dalang kriminal berdandan menyeramkan yang meneror Kota Gotham.</p>
+                    <div class="button_div">
+                        <button class="more_info home_button">
+                            <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <p>Mainkan</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider slider-2 ">
+                <div class="slider_content">
+                    <h2>Deadpool and Wolverine</h2>
+                    <p>Deadpool ditawari tempat di Marvel Cinematic Universe oleh Time Variance Authority, tetapi malah merekrut varian Wolverine untuk menyelamatkan alam semestanya dari kepunahan.</p>
+                    <div class="button_div">
+                        <button class="more_info home_button">
+                            <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <p>Mainkan</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-points">
+                <span class="slider_1_point active"></span>
+                <span class="slider_1_point "></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="trending-on-netflix">
+            <h4>Sedang Tren Sekarang</h4>
+            <span class="movie-scroll-btn movie-scroll-left-btn" onclick="scrollshowleft(1)"><i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+            <div class="inner_trending_shows">
+                <div class="trending_card">
+                    <span class="rank">1</span>
+                    <img src="trending/Squid-Game.png">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">2</span>
+                    <img src="trending/raden.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">3</span>
+                    <img src="trending/agaklaen.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">4</span>
+                    <img src="trending/1K7P.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">5</span>
+                    <img src="trending/kretek.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">6</span>
+                    <img src="trending/ancika.jpeg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">7</span>
+                    <img src="trending/enola.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">8</span>
+                    <img src="trending/busprop.jpg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">9</span>
+                    <img src="trending/furiosa.jpeg">
+                </div>
+                <div class="trending_card">
+                    <span class="rank">10</span>
+                    <img src="trending/bb.jpg">
+                </div>
+            </div>
+            <span class="movie-scroll-btn movie-scroll-right-btn" onclick="scrollshows(1)"><i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <div class="komedi-on-netflix">
+            <h4>Komedi Indonesia</h4>
+            <span class="movie-scroll-btn movie-scroll-left-btn komedi-left" onclick="scrollshowleft(2)"><i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+            <div class="inner_komedi_shows">
+                <div class="komedi_card">
+                    <img src="komedi/hg.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/nns.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/terlalu-tampan.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/imperfect.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/mm.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/cts.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/agaklaen.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/hangout.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/cts1.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/sa.jpg">
+                </div>
+                <div class="komedi_card">
+                    <img src="komedi/ggg.jpg">
+                </div>
+            </div>
+            <span class="movie-scroll-btn movie-scroll-right-btn komedi-right" onclick="scrollshows(2)"><i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <h3>Film, acara TV tak terbatas, dan banyak lagi</h3>
+        <p>Harga mulai dari Rp 54.000. Batalkan kapan pun.</p>
+        <p>Siap menonton? Klik mulai untuk membuat atau memulai lagi keanggotaanmu.</p>
+        <button>Mulai ></button>
+    </div>
+
+    <footer class="footer">
+        <p>Ada pertanyaan? Hubungi 007-803-321-8275</p>
+        <div class="footer-links">
+            <div class="column">
+                <a href="#">Tanya Jawab</a>
+                <a href="#">Hubungan Investor</a>
+                <a href="#">Cara Menonton</a>
+                <a href="#">Informasi Perusahaan</a>
+                <a href="#">Hanya di Rahardan</a>
+            </div>
+            <div class="column">
+                <a href="#">Pusat Bantuan</a>
+                <a href="#">Lowongan Kerja</a>
+                <a href="#">Ketentuan Penggunaan</a>
+                <a href="#">Hubungi Kami</a>
+            </div>
+            <div class="column">
+                <a href="#">Akun</a>
+                <a href="#">Tukar Kartu Hadiah</a>
+                <a href="#">Privasi</a>
+                <a href="#">Uji Kecepatan</a>
+            </div>
+            <div class="column">
+                <a href="#">Pusat Media</a>
+                <a href="#">Beli Kartu Hadiah</a>
+                <a href="#">Preferensi Cookie</a>
+                <a href="#">Informasi Legal</a>
+            </div>
+        </div>
+        <p>Rahardan Indonesia</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
